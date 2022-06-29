@@ -25,7 +25,7 @@ const ToolsSkills = () => {
             height="100"
             layout="intrinsic"
           />
-          <h3 className="font-bold text-xl text-oneColor">CSS</h3>
+          <h3 className="font-bold text-xl text-threeColor">CSS</h3>
         </div>
         <div className="col-span-1 row-span-1 border-t-2 border-threeColor bg-twoColor w-full h-48 flex flex-col justify-around items-center">
           <Image
@@ -34,7 +34,7 @@ const ToolsSkills = () => {
             height="100"
             layout="intrinsic"
           />
-          <h3 className="font-bold text-xl text-oneColor ">ReactJS</h3>
+          <h3 className="font-bold text-xl text-threeColor ">ReactJS</h3>
         </div>
         <div className="col-span-1 row-span-1 border-t-2 border-l-2 border-threeColor w-full h-48 flex flex-col justify-around items-center">
           <Image
@@ -61,7 +61,7 @@ const ToolsSkills = () => {
             height="100"
             layout="intrinsic"
           />
-          <h3 className="font-bold text-xl text-oneColor">Figma</h3>
+          <h3 className="font-bold text-xl text-threeColor">Figma</h3>
         </div>
         <div className=" bg-twoColor border-t-2 border-threeColor col-span-2 h-44 flex flex-col justify-around items-center">
           <Image
@@ -70,7 +70,7 @@ const ToolsSkills = () => {
             height="100"
             layout="intrinsic"
           />
-          <h3 className="font-bold text-xl text-oneColor">Photoshop</h3>
+          <h3 className="font-bold text-xl text-threeColor">Photoshop</h3>
         </div>
       </div>
     </div>

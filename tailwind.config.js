@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        oneColor: "#0d1212",
-        twoColor: "#eeb34c",
-        threeColor: "#e1f1f1", //fff6f5
-        fourColor: "#ea5216",
+        oneColor: "#010402", //#0d1212
+        twoColor: "#9934f8", //#eeb34c
+        threeColor: "#fdf5f4", //fff6f5
+        fourColor: "#752b2b",
       },
     },
   },
