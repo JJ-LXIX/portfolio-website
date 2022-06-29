@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const WorkSection = () => {
   return (
-    <div className="bg-oneColor w-full h-fit">
-      <h2 className="text-center font-bold text-4xl text-threeColor">
+    <div className="bg-oneColor w-full h-fit" id="portfolio__work">
+      <h2 className="text-center font-bold text-4xl text-threeColor underline underline-offset-4 decoration-twoColor">
         My Work
       </h2>
       {/* 1st Project */}
@@ -24,8 +24,6 @@ const WorkSection = () => {
           <div className="border-2 border-blue-600 h-48 w-72 my-6 relative ">
             <Image
               src="/portfolio-work/JMovies.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="contain"
             />
@@ -34,8 +32,6 @@ const WorkSection = () => {
           <div className=" border-2 border-blue-600 h-48 w-72 my-6 relative ">
             <Image
               src="/portfolio-work/JMovies2.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="contain"
             />
@@ -45,9 +41,12 @@ const WorkSection = () => {
             Tech Stack :
           </h3>
 
-          {/* CTA Github Repo */}
-          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-8 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
+          {/* CTA Buttons*/}
+          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-4 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
             View on Github
+          </button>
+          <button className="bg-twoColor  border-2 border-threeColor py-2 px-[3.55rem]  text-oneColor text-2xl font-bold  active:scale-95 transition-all duration-150">
+            View Site
           </button>
         </div>
       </div>
@@ -70,8 +69,6 @@ const WorkSection = () => {
           <div className="border-2 border-green-600 h-64 w-64 my-6 relative ">
             <Image
               src="/portfolio-work/wordleClone.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="cover"
             />
@@ -80,8 +77,6 @@ const WorkSection = () => {
           <div className=" border-2 border-green-600 h-64 w-64 my-6 relative ">
             <Image
               src="/portfolio-work/wordleClone2.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="cover"
             />
@@ -92,8 +87,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Github Repo */}
-          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-8 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
+          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-4 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
             View on Github
+          </button>
+          <button className="bg-twoColor  border-2 border-threeColor py-2 px-[3.55rem]  text-oneColor text-2xl font-bold  active:scale-95 transition-all duration-150">
+            View Site
           </button>
         </div>
       </div>
@@ -114,8 +112,6 @@ const WorkSection = () => {
           <div className="border-2 border-fourColor h-32 w-64 my-6 relative">
             <Image
               src="/portfolio-work/cryptoTracker.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="scale-down"
             />
@@ -124,8 +120,6 @@ const WorkSection = () => {
           <div className="border-2 border-fourColor h-32 w-64 my-6 relative">
             <Image
               src="/portfolio-work/cryptoTracker2.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="contain"
             />
@@ -136,8 +130,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Github Repo */}
-          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-8 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
+          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-4 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
             View on Github
+          </button>
+          <button className="bg-twoColor  border-2 border-threeColor py-2 px-[3.55rem]  text-oneColor text-2xl font-bold  active:scale-95 transition-all duration-150">
+            View Site
           </button>
         </div>
       </div>
@@ -159,8 +156,6 @@ const WorkSection = () => {
           <div className="border-2 border-green-600 h-48 w-[19rem] my-6 relative ">
             <Image
               src="/portfolio-work/nftProject.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="cover"
             />
@@ -169,8 +164,6 @@ const WorkSection = () => {
           <div className=" border-2 border-green-600 h-36 w-[19rem] my-6 relative ">
             <Image
               src="/portfolio-work/nftProject2.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="cover"
             />
@@ -181,8 +174,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Github Repo */}
-          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-8 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
+          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-4 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
             View on Github
+          </button>
+          <button className="bg-twoColor  border-2 border-threeColor py-2 px-[3.55rem]  text-oneColor text-2xl font-bold  active:scale-95 transition-all duration-150">
+            View Site
           </button>
         </div>
       </div>
@@ -204,8 +200,6 @@ const WorkSection = () => {
           <div className="border-2 border-white h-48 w-[19rem] my-6 relative ">
             <Image
               src="/portfolio-work/NFTCollection.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="cover"
             />
@@ -216,8 +210,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Github Repo */}
-          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-8 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
+          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-4 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
             View on Github
+          </button>
+          <button className="bg-twoColor  border-2 border-threeColor py-2 px-[3.55rem]  text-oneColor text-2xl font-bold  active:scale-95 transition-all duration-150">
+            View Site
           </button>
         </div>
       </div>
@@ -236,11 +233,9 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-blue-600 h-60 w-[19rem] my-6 relative ">
+          <div className="border-2 border-pink-600 h-60 w-[18rem] my-6 relative ">
             <Image
               src="/portfolio-work/twitterClone.png"
-              width="256"
-              height="256"
               layout="fill"
               objectFit="cover"
             />
@@ -251,8 +246,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Github Repo */}
-          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-8 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
+          <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 mb-4 text-threeColor text-2xl font-semibold active:scale-95 transition-all duration-150">
             View on Github
+          </button>
+          <button className="bg-twoColor  border-2 border-threeColor py-2 px-[3.55rem]  text-oneColor text-2xl font-bold  active:scale-95 transition-all duration-150">
+            View Site
           </button>
         </div>
       </div>

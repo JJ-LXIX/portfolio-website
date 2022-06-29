@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className=" h-[95vh] w-full flex flex-col justify-around items-center px-6  ">
+    <div
+      className=" h-[95vh] w-full flex flex-col justify-around items-center px-6 "
+      id="top__of__page"
+    >
       {/* Hero Text */}
       <div className="flex flex-col justify-around items-baseline h-[45vh] pt-5  w-full">
         <div className="-space-y-1">

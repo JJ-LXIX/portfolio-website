@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HeroSection from "../Components/HeroSection";
 import NavBar from "../Components/NavBar";
+import ToolsSkills from "../Components/ToolsSkills";
 import WorkSection from "../Components/WorkSection";
 
 export default function Home() {
@@ -25,6 +26,9 @@ export default function Home() {
 
         {/* Work Section */}
         <WorkSection />
+
+        {/* Tools and Skills Section */}
+        <ToolsSkills />
       </div>
     </div>
   );
