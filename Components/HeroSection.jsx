@@ -22,8 +22,8 @@ const HeroSection = () => {
         </div>
 
         <h2 className="text-threeColor/90 text-lg font-semibold md:text-3xl ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ea quod
-          error sint suscipit similique dolorem iste unde cupiditate ut.
+          I am enthusiastic about solving business problems through
+          human-centered design. Curious by nature and business-minded.
         </h2>
 
         {/* Github Button CTA */}
