@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutMe from "../Components/AboutMe";
 import HeroSection from "../Components/HeroSection";
 import NavBar from "../Components/NavBar";
 import ToolsSkills from "../Components/ToolsSkills";
@@ -6,7 +7,7 @@ import WorkSection from "../Components/WorkSection";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ scrollBehavior: "smooth" }}>
       <Head>
         <title>Jagrath Shetty</title>
         <meta
@@ -29,6 +30,9 @@ export default function Home() {
 
         {/* Tools and Skills Section */}
         <ToolsSkills />
+
+        {/* About Me Section */}
+        <AboutMe />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 
 const ToolsSkills = () => {
   return (
-    <div className="bg-oneColor -mt-10 pt-14 pb-16" id="tools__skills">
+    <div className="bg-oneColor  pt-2 pb-10" id="tools__skills">
       <h2 className="font-bold text-4xl text-threeColor text-center underline underline-offset-4 decoration-twoColor">
         My Skills and Tools
       </h2>

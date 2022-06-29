@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WorkSection = () => {
   return (
-    <div className="bg-oneColor w-full h-fit" id="portfolio__work">
+    <div className="bg-oneColor w-full pb-2" id="portfolio__work">
       <h2 className="text-center font-bold text-4xl text-threeColor underline underline-offset-4 decoration-twoColor">
         My Work
       </h2>
@@ -21,7 +21,7 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-blue-600 h-48 w-72 my-6 relative ">
+          <div className="border-2 border-twoColor h-48 w-72 my-6 relative ">
             <Image
               src="/portfolio-work/JMovies.png"
               layout="fill"
@@ -29,7 +29,7 @@ const WorkSection = () => {
             />
           </div>
 
-          <div className=" border-2 border-blue-600 h-48 w-72 my-6 relative ">
+          <div className=" border-2 border-twoColor h-48 w-72 my-6 relative ">
             <Image
               src="/portfolio-work/JMovies2.png"
               layout="fill"
@@ -66,7 +66,7 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-green-600 h-64 w-64 my-6 relative ">
+          <div className="border-2 border-twoColor h-64 w-64 my-6 relative ">
             <Image
               src="/portfolio-work/wordleClone.png"
               layout="fill"
@@ -74,7 +74,7 @@ const WorkSection = () => {
             />
           </div>
 
-          <div className=" border-2 border-green-600 h-64 w-64 my-6 relative ">
+          <div className=" border-2 border-twoColor h-64 w-64 my-6 relative ">
             <Image
               src="/portfolio-work/wordleClone2.png"
               layout="fill"
@@ -109,7 +109,7 @@ const WorkSection = () => {
           </h3>
 
           {/* Website Image */}
-          <div className="border-2 border-fourColor h-32 w-64 my-6 relative">
+          <div className="border-2 border-twoColor h-32 w-64 my-6 relative">
             <Image
               src="/portfolio-work/cryptoTracker.png"
               layout="fill"
@@ -117,7 +117,7 @@ const WorkSection = () => {
             />
           </div>
 
-          <div className="border-2 border-fourColor h-32 w-64 my-6 relative">
+          <div className="border-2 border-twoColor h-32 w-64 my-6 relative">
             <Image
               src="/portfolio-work/cryptoTracker2.png"
               layout="fill"
@@ -153,7 +153,7 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-green-600 h-48 w-[19rem] my-6 relative ">
+          <div className="border-2 border-twoColor h-48 w-[19rem] my-6 relative ">
             <Image
               src="/portfolio-work/nftProject.png"
               layout="fill"
@@ -161,7 +161,7 @@ const WorkSection = () => {
             />
           </div>
 
-          <div className=" border-2 border-green-600 h-36 w-[19rem] my-6 relative ">
+          <div className=" border-2 border-twoColor h-36 w-[19rem] my-6 relative ">
             <Image
               src="/portfolio-work/nftProject2.png"
               layout="fill"
@@ -197,7 +197,7 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-white h-48 w-[19rem] my-6 relative ">
+          <div className="border-2 border-twoColor h-48 w-[19rem] my-6 relative ">
             <Image
               src="/portfolio-work/NFTCollection.png"
               layout="fill"
@@ -233,7 +233,7 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-pink-600 h-60 w-[18rem] my-6 relative ">
+          <div className="border-2 border-twoColor h-60 w-[18rem] my-6 relative ">
             <Image
               src="/portfolio-work/twitterClone.png"
               layout="fill"
