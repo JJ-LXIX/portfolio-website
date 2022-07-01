@@ -1,3 +1,4 @@
+import { ChatAlt2Icon, MailIcon } from "@heroicons/react/outline";
 import React from "react";
 
 const AboutMe = () => {
@@ -20,7 +21,8 @@ const AboutMe = () => {
         <h2 className="text-threeColor  font-semibold text-lg text-center rounded-lg  md:text-3xl">
           Things I do for FUN :
           <p className="text-threeColor/80">
-            Video Games, Football, TV Shows, Movies and Music.
+            Video Games, Youtube, Podcasts, Football, TV Shows, Movies and
+            Music.
           </p>
         </h2>
         <div className="w-full bg-threeColor/40 h-1"></div>
@@ -33,9 +35,10 @@ const AboutMe = () => {
       </div>
 
       {/* Socials */}
-      <div className=" mt-4 flex flex-col w-full items-center md:flex-row md:justify-around  md:mt-8 lg:mt-12">
+      <div className=" mt-6 flex  w-full items-center justify-around  md:mt-6 lg:mt-12">
         {/* Insta */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center  w-1/2">
+          <ChatAlt2Icon className="text-threeColor h-4 md:h-6" />
           <h3 className="text-base font-semibold text-threeColor/90 underline md:text-3xl">
             Instagram
           </h3>
@@ -44,7 +47,8 @@ const AboutMe = () => {
           </p>
         </div>
         {/* Email */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center  w-1/2 -ml-10">
+          <MailIcon className="text-threeColor h-4 md:h-6 " />
           <h3 className="text-base font-semibold text-threeColor/90 underline md:text-3xl">
             Email
           </h3>
