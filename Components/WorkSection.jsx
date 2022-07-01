@@ -43,10 +43,10 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -90,10 +90,10 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -135,10 +135,10 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -181,10 +181,10 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -219,10 +219,10 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -257,10 +257,10 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-95 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
