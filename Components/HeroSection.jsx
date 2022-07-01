@@ -14,10 +14,10 @@ const HeroSection = () => {
             Hi there! I'm
           </h2>
           <h1 className="text-threeColor font-bold text-4xl md:text-7xl ">
-            Jagrath Shetty
+            Jagrath Shetty,
           </h1>
           <h2 className="text-twoColor font-bold text-3xl md:text-6xl">
-            Frontend Developer
+            Frontend Developer.
           </h2>
         </div>
 
@@ -27,10 +27,11 @@ const HeroSection = () => {
         </h2>
 
         {/* Github Button CTA */}
-
-        <button className="bg-transparent  border-2 border-threeColor py-2 px-4 mt-2 text-threeColor text-xl font-semibold rounded  transition-all duration-150 md:py-5 md:px-14 md:text-2xl hover:bg-twoColor/50 hover:scale-110 active:scale-90 ">
-          View Github
-        </button>
+        <a target="_blank" href="https://github.com/JJ-LXIX">
+          <button className="bg-transparent  border-2 border-threeColor py-2 px-4 mt-2 text-threeColor text-xl font-semibold rounded  transition-all duration-150 md:py-5 md:px-14 md:text-2xl hover:bg-twoColor/50 hover:scale-110 active:scale-90 ">
+            View Github
+          </button>
+        </a>
       </div>
 
       {/* Hero Image */}
