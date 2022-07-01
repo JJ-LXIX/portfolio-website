@@ -27,7 +27,7 @@ const HeroSection = () => {
         </h2>
 
         {/* Github Button CTA */}
-        <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-6 mt-2 text-threeColor text-2xl font-semibold rounded active:scale-95 transition-all duration-150 md:py-5 md:px-14">
+        <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-4 mt-2 text-threeColor text-xl font-semibold rounded active:scale-95 transition-all duration-150 md:py-5 md:px-14 md:text-2xl">
           View Github
         </button>
       </div>

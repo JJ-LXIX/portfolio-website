@@ -12,3 +12,12 @@
   /* font-family: 'Press Start 2P', cursive; */
 }
 
+.wavy__line {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #742cbd;
+  text-decoration-color: #742cbd;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+  
+}
+

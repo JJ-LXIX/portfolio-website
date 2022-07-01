@@ -7,8 +7,8 @@ const ToolsSkills = () => {
       className="bg-oneColor pt-5 pb-10 md:pt-10 md:pb-14"
       id="tools__skills"
     >
-      <h2 className="font-bold text-4xl text-threeColor text-center underline underline-offset-4 decoration-twoColor md:text-5xl">
-        My Skills and Tools
+      <h2 className="font-bold text-4xl text-threeColor text-center wavy__line md:text-5xl">
+        Skills and Tools
       </h2>
 
       <div className="grid grid-cols-2 grid-row-3 mt-8 mx-5 border-2 border-threeColor md:mt-14 md:mx-8">
@@ -23,7 +23,7 @@ const ToolsSkills = () => {
             HTML
           </h3>
         </div>
-        <div className="col-span-1 row-span-1 border-l-2 border-threeColor bg-twoColor w-full h-48 flex flex-col justify-around items-center md:h-60">
+        <div className="col-span-1 row-span-1 border-l-2 border-threeColor bg-twoColor/60 w-full h-48 flex flex-col justify-around items-center md:h-60">
           <Image
             src="/skills_tools/css.png"
             width="80"
@@ -32,7 +32,7 @@ const ToolsSkills = () => {
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">CSS</h3>
         </div>
-        <div className="col-span-1 row-span-1 border-t-2 border-threeColor bg-twoColor w-full h-48 flex flex-col justify-around items-center md:h-60">
+        <div className="col-span-1 row-span-1 border-t-2 border-threeColor bg-twoColor/60 w-full h-48 flex flex-col justify-around items-center md:h-60">
           <Image
             src="/skills_tools/reactjs.png"
             width="125"
@@ -65,7 +65,7 @@ const ToolsSkills = () => {
             Tailwind CSS
           </h3>
         </div>
-        <div className="col-span-1 row-span-1 border-t-2 border-l-2 border-threeColor bg-twoColor w-full h-48 flex flex-col justify-around items-center md:h-60">
+        <div className="col-span-1 row-span-1 border-t-2 border-l-2 border-threeColor bg-twoColor/60 w-full h-48 flex flex-col justify-around items-center md:h-60">
           <Image
             src="/skills_tools/figma.png"
             width="80"
@@ -76,7 +76,7 @@ const ToolsSkills = () => {
             Figma
           </h3>
         </div>
-        <div className=" bg-twoColor border-t-2 border-threeColor col-span-2 h-44 flex flex-col justify-around items-center md:h-48">
+        <div className=" bg-twoColor/60 border-t-2 border-threeColor col-span-2 h-44 flex flex-col justify-around items-center md:h-48">
           <Image
             src="/skills_tools/photoshop.png"
             width="170"

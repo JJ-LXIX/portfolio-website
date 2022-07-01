@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        oneColor: "#010402", //#0d1212
-        twoColor: "#9934f8", //#eeb34c
-        threeColor: "#fdf5f4", //fff6f5
+        oneColor: "#010402",
+        twoColor: "#742cbd", // 441870 9934f8
+        threeColor: "#fdf5f4",
         fourColor: "#752b2b",
       },
     },

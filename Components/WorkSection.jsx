@@ -4,7 +4,7 @@ import Image from "next/image";
 const WorkSection = () => {
   return (
     <div className="bg-oneColor w-full pb-2 pt-5 md:pt-10" id="portfolio__work">
-      <h2 className="text-center font-bold text-4xl text-threeColor underline underline-offset-4 decoration-twoColor md:text-5xl">
+      <h2 className="text-center font-bold text-4xl text-threeColor wavy__line md:text-5xl">
         My Work
       </h2>
       {/* 1st Project */}
