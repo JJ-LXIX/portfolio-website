@@ -4,12 +4,12 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <div
-      className=" h-[90vh] w-full flex flex-col justify-around items-center px-6 md:px-14 lg:px-20 "
+      className=" h-[90vh] w-full flex flex-col justify-around items-center px-6 md:px-14 lg:px-20 lg:flex-row"
       id="top__of__page"
     >
       {/* Hero Text */}
-      <div className="flex flex-col justify-around items-baseline h-[45vh] pt-5  w-full">
-        <div className="-space-y-1 md:space-y-0">
+      <div className="flex flex-col justify-around items-baseline h-[45vh] pt-5 w-full lg:h-[60vh]">
+        <div className="-space-y-1 md:space-y-0 lg:-space-y-1">
           <h2 className="text-twoColor font-bold text-3xl md:text-6xl">
             Hi there! I'm
           </h2>
@@ -27,13 +27,14 @@ const HeroSection = () => {
         </h2>
 
         {/* Github Button CTA */}
-        <button className="bg-threeColor/20  border-2 border-threeColor py-2 px-4 mt-2 text-threeColor text-xl font-semibold rounded active:scale-95 transition-all duration-150 md:py-5 md:px-14 md:text-2xl">
+
+        <button className="bg-transparent  border-2 border-threeColor py-2 px-4 mt-2 text-threeColor text-xl font-semibold rounded  transition-all duration-150 md:py-5 md:px-14 md:text-2xl hover:bg-twoColor/50 hover:scale-110 active:scale-90 ">
           View Github
         </button>
       </div>
 
       {/* Hero Image */}
-      <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center md:-mt-8">
+      <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center md:-mt-8 lg:h-[60vh] lg:mt-0">
         <Image src="/hero-image.svg" width="400" height="400" />
       </div>
     </div>

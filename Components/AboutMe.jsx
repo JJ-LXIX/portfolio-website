@@ -17,19 +17,19 @@ const AboutMe = () => {
           coding
         </p>
         <div className="w-full bg-threeColor/40 h-1"></div>
-        <p className="text-threeColor  font-semibold text-lg text-center rounded-lg  md:text-3xl">
+        <h2 className="text-threeColor  font-semibold text-lg text-center rounded-lg  md:text-3xl">
           Things I do for FUN :
           <p className="text-threeColor/80">
             Video Games, Football, TV Shows, Movies and Music.
           </p>
-        </p>
+        </h2>
         <div className="w-full bg-threeColor/40 h-1"></div>
-        <p className="text-threeColor font-semibold text-lg text-center rounded-lg md:text-3xl">
+        <h2 className="text-threeColor font-semibold text-lg text-center rounded-lg md:text-3xl">
           Things I want to LEARN :
           <p className="text-threeColor/80">
             Blockchain Development , 3d Art, Music Development, XR Development.
           </p>
-        </p>
+        </h2>
       </div>
 
       {/* Socials */}
