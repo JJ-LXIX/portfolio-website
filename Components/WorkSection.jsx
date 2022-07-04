@@ -4,7 +4,7 @@ import Image from "next/image";
 const WorkSection = () => {
   return (
     <div className="bg-oneColor w-full pb-2 pt-5 md:pt-10" id="portfolio__work">
-      <h2 className="text-center font-bold text-4xl text-threeColor wavy__line md:text-5xl">
+      <h2 className="text-center font-bold text-4xl text-threeColor wavy__line md:text-5xl ">
         My Work
       </h2>
       {/* 1st Project */}
@@ -21,20 +21,22 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-twoColor h-48 w-72 my-6 relative md:h-80 md:w-[35rem] ">
-            <Image
-              src="/portfolio-work/JMovies.png"
-              layout="fill"
-              objectFit="contain"
-            />
-          </div>
+          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full ">
+            <div className="border-2 border-twoColor h-48 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/JMovies.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
 
-          <div className=" border-2 border-twoColor h-48 w-72 my-6 relative md:h-80 md:w-[35rem] ">
-            <Image
-              src="/portfolio-work/JMovies2.png"
-              layout="fill"
-              objectFit="contain"
-            />
+            <div className=" border-2 border-twoColor h-48 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/JMovies2.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
@@ -42,11 +44,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -67,21 +69,22 @@ const WorkSection = () => {
           </h4>
 
           {/* Website Image */}
+          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
+            <div className="border-2 border-twoColor h-64 w-64 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/wordleClone.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
 
-          <div className="border-2 border-twoColor h-64 w-64 my-6 relative md:h-80 md:w-[35rem] ">
-            <Image
-              src="/portfolio-work/wordleClone.png"
-              layout="fill"
-              objectFit="cover"
-            />
-          </div>
-
-          <div className=" border-2 border-twoColor h-64 w-64 my-6 relative md:h-80 md:w-[35rem] ">
-            <Image
-              src="/portfolio-work/wordleClone2.png"
-              layout="fill"
-              objectFit="cover"
-            />
+            <div className=" border-2 border-twoColor h-64 w-64 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/wordleClone2.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
@@ -89,11 +92,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -111,22 +114,23 @@ const WorkSection = () => {
           <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl">
             A Currency Tracking Website{" "}
           </h3>
+          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
+            {/* Website Image */}
+            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/cryptoTracker.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
 
-          {/* Website Image */}
-          <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem]">
-            <Image
-              src="/portfolio-work/cryptoTracker.png"
-              layout="fill"
-              objectFit="cover"
-            />
-          </div>
-
-          <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem]">
-            <Image
-              src="/portfolio-work/cryptoTracker2.png"
-              layout="fill"
-              objectFit="cover"
-            />
+            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/cryptoTracker2.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
@@ -134,11 +138,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -158,21 +162,22 @@ const WorkSection = () => {
           </h3>
 
           {/* Website Image */}
+          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
+            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/nftProject.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
 
-          <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] ">
-            <Image
-              src="/portfolio-work/nftProject.png"
-              layout="fill"
-              objectFit="cover"
-            />
-          </div>
-
-          <div className=" border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] ">
-            <Image
-              src="/portfolio-work/nftProject2.png"
-              layout="fill"
-              objectFit="cover"
-            />
+            <div className=" border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src="/portfolio-work/nftProject2.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
@@ -180,11 +185,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -205,11 +210,11 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] ">
+          <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
             <Image
               src="/portfolio-work/NFTCollection.png"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
             />
           </div>
 
@@ -218,11 +223,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
@@ -243,11 +248,11 @@ const WorkSection = () => {
 
           {/* Website Image */}
 
-          <div className="border-2 border-twoColor h-60 w-[19rem] my-6 relative md:h-80 md:w-[35rem] ">
+          <div className="border-2 border-twoColor h-60 w-[19rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
             <Image
               src="/portfolio-work/twitterClone.png"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
             />
           </div>
 
@@ -256,11 +261,11 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center">
-            <button className="bg-transparent  border-2 border-threeColor py-2 px-6  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+            <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View on Github
             </button>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
               View Site
             </button>
           </div>
