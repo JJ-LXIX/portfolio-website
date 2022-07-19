@@ -8,7 +8,7 @@ const HeroSection = () => {
       scale: [1, 1.1, 0.9, 1],
       x: [0, 60, -40, 0],
       y: [0, -100, 40, 0],
-      transition: { repeat: Infinity, duration: 10, ease: "easeInOut" },
+      transition: { repeat: Infinity, duration: 8, ease: "easeInOut" },
     },
   };
   const animationContainer2 = {
@@ -16,7 +16,26 @@ const HeroSection = () => {
       scale: [1, 1.1, 0.9, 1],
       x: [0, -60, 40, 0],
       y: [0, 100, -100, 0],
-      transition: { repeat: Infinity, duration: 10, ease: "easeInOut" },
+      transition: { repeat: Infinity, duration: 8, ease: "easeInOut" },
+    },
+  };
+
+  const parentSection = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.7,
+      },
+    },
+  };
+
+  const childrenSection = {
+    hidden: { opacity: 0, x: -100 },
+    show: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 1, ease: "easeInOut" },
     },
   };
 
@@ -45,8 +64,16 @@ const HeroSection = () => {
       ></motion.div>
 
       {/* Hero Text */}
-      <div className="flex flex-col justify-around items-baseline h-[45vh] pt-5 w-full lg:h-[60vh]">
-        <div className="-space-y-1 md:space-y-0 lg:-space-y-1">
+      <motion.div
+        className="flex flex-col justify-around items-baseline h-[45vh] pt-5 w-full lg:h-[60vh]"
+        variants={parentSection}
+        initial="hidden"
+        animate="show"
+      >
+        <motion.div
+          className="-space-y-1 md:space-y-0 lg:-space-y-1"
+          variants={childrenSection}
+        >
           <h2 className="text-twoColor font-bold text-3xl md:text-6xl">
             Hi there! I'm
           </h2>
@@ -56,20 +83,27 @@ const HeroSection = () => {
           <h2 className="text-twoColor font-bold text-3xl md:text-6xl">
             Frontend Developer.
           </h2>
-        </div>
+        </motion.div>
 
-        <h2 className="text-threeColor/90 text-lg font-semibold md:text-3xl ">
+        <motion.h2
+          className="text-threeColor/90 text-lg font-semibold md:text-3xl "
+          variants={childrenSection}
+        >
           I am enthusiastic about solving business problems through
           human-centered design. Curious by nature and business-minded.
-        </h2>
+        </motion.h2>
 
         {/* Github Button CTA */}
-        <a target="_blank" href="https://github.com/JJ-LXIX">
+        <motion.a
+          target="_blank"
+          href="https://github.com/JJ-LXIX"
+          variants={childrenSection}
+        >
           <button className="bg-transparent  border-2 border-threeColor py-2 px-4 mt-2 text-threeColor text-xl font-semibold rounded  transition-all duration-150 md:py-5 md:px-14 md:text-2xl hover:bg-twoColor/50 hover:scale-110 active:scale-90 ">
             View Github
           </button>
-        </a>
-      </div>
+        </motion.a>
+      </motion.div>
 
       {/* Hero Image */}
       <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center md:-mt-8 lg:h-[60vh] lg:mt-0">
