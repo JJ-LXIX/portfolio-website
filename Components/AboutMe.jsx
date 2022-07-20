@@ -1,4 +1,5 @@
 import { ChatAlt2Icon, MailIcon } from "@heroicons/react/outline";
+import { motion } from "framer-motion";
 import React from "react";
 
 const AboutMe = () => {
@@ -12,13 +13,19 @@ const AboutMe = () => {
       </h2>
 
       {/* Card */}
-      <div className="w-4/5 h-[25rem] border-2  border-threeColor bg-twoColor/60 mt-[2rem] rounded-2xl  shadow-[10px_10px_15px_-8px_rgba(245,235,255,0.5)] flex flex-col justify-evenly items-center p-3 md:h-[50rem] md:border-4 md:px-8 md:mt-[5rem]">
-        <p className="text-threeColor font-semibold text-lg text-center rounded-lg  md:text-3xl">
+      <motion.div
+        className="w-4/5 h-[25rem] border-2  border-threeColor bg-twoColor/60 mt-[2rem] rounded-2xl  shadow-[10px_10px_15px_-8px_rgba(245,235,255,0.5)] 
+      flex flex-col justify-evenly items-center p-3 md:h-[50rem] md:border-4 md:px-8 md:mt-[5rem]"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
+        viewport={{ once: true }}
+      >
+        <p className="text-threeColor font-semibold text-lg text-center rounded-lg  md:text-2xl">
           I dropped out of law school in my 4th year to pursue my interest in
           coding
         </p>
         <div className="w-full bg-threeColor/40 h-1"></div>
-        <h2 className="text-threeColor  font-semibold text-lg text-center rounded-lg  md:text-3xl">
+        <h2 className="text-threeColor  font-semibold text-lg text-center rounded-lg  md:text-2xl">
           Things I do for FUN :
           <p className="text-threeColor/80">
             Video Games, Youtube, Podcasts, Football, TV Shows, Movies and
@@ -26,13 +33,13 @@ const AboutMe = () => {
           </p>
         </h2>
         <div className="w-full bg-threeColor/40 h-1"></div>
-        <h2 className="text-threeColor font-semibold text-lg text-center rounded-lg md:text-3xl">
+        <h2 className="text-threeColor font-semibold text-lg text-center rounded-lg md:text-2xl">
           Things I want to LEARN :
           <p className="text-threeColor/80">
             Blockchain Development , 3d Art, Music Development, XR Development.
           </p>
         </h2>
-      </div>
+      </motion.div>
 
       {/* Socials */}
       <div className=" mt-6 flex  w-full items-center justify-around  md:mt-6 lg:mt-12">

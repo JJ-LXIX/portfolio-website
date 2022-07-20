@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const ToolsSkills = () => {
   return (
@@ -11,7 +12,12 @@ const ToolsSkills = () => {
         Skills and Tools
       </h2>
 
-      <div className="grid grid-cols-2 grid-row-3 mt-8 mx-5 border-2 border-threeColor md:mt-14 md:mx-8">
+      <motion.div
+        className="grid grid-cols-2 grid-row-3 mt-8 mx-5 border-2 border-threeColor md:mt-14 md:mx-8"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
+        viewport={{ once: true }}
+      >
         <div className="col-span-1 row-span-1 w-full h-48  flex flex-col justify-around items-center md:h-60 lg:h-44">
           <Image
             src="/skills_tools/html.png"
@@ -87,7 +93,7 @@ const ToolsSkills = () => {
             Photoshop
           </h3>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
