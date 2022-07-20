@@ -40,7 +40,7 @@ const WorkSection = () => {
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack :
+            Tech Stack : ReactJS, MovieDB API
           </h3>
 
           {/* CTA Buttons*/}
@@ -88,7 +88,7 @@ const WorkSection = () => {
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack :
+            Tech Stack : ReactJS
           </h3>
 
           {/* CTA Buttons*/}
@@ -134,7 +134,7 @@ const WorkSection = () => {
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack :
+            Tech Stack : ReactJS, MaterialUI, ChartJS, Firebase
           </h3>
 
           {/* CTA Buttons*/}
@@ -181,7 +181,7 @@ const WorkSection = () => {
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack :
+            Tech Stack : NextJS, Typescript, Sanity CMS, Tailwind, Thirdweb
           </h3>
 
           {/* CTA Buttons*/}
@@ -219,7 +219,7 @@ const WorkSection = () => {
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack :
+            Tech Stack : NextJS, Tailwind, Framer Motion
           </h3>
 
           {/* CTA Buttons*/}
@@ -257,7 +257,7 @@ const WorkSection = () => {
           </div>
 
           <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack :
+            Tech Stack : NextJS, Sanity CMS, Typescript, Tailwind, NextAuth
           </h3>
 
           {/* CTA Buttons*/}
