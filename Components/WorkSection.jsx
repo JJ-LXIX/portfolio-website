@@ -44,7 +44,7 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+          <div className="flex mt-4 flex-col  space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
               href="https://github.com/JJ-LXIX/react-movie-app"
@@ -99,7 +99,7 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a target="_blank" href="https://github.com/JJ-LXIX/wordle-clone">
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View On Github
@@ -152,7 +152,7 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a target="_blank" href="https://github.com/JJ-LXIX/Crypto_tracker">
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
@@ -206,7 +206,7 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
               href="https://github.com/JJ-LXIX/NFT_Project_Test"
@@ -251,7 +251,7 @@ const WorkSection = () => {
           </h3>
 
           {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
               href="https://github.com/JJ-LXIX/front-end-practice-sites"
