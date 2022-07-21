@@ -233,7 +233,7 @@ const WorkSection = () => {
         {/* inner text */}
         <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
           <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
-            An NFT Collection Website{" "}
+            An NFT Collection Website (PC ONLY NOT ON MOBILE)
           </h3>
 
           {/* Website Image */}
