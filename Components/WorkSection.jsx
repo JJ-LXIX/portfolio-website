@@ -240,7 +240,7 @@ const WorkSection = () => {
 
           <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
             <Image
-              src="/portfolio-work/NFTCollection.png"
+              src="/portfolio-work/NFTcollection.png"
               layout="fill"
               objectFit="contain"
             />
