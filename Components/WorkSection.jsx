@@ -53,9 +53,11 @@ const WorkSection = () => {
                 View on Github
               </button>
             </a>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-              View Site
-            </button>
+            <a href="https://react-movie-app-pearl.vercel.app/" target="_blank">
+              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -103,9 +105,14 @@ const WorkSection = () => {
                 View On Github
               </button>
             </a>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-              View Site
-            </button>
+            <a
+              href="https://wordle-test-clone-site.netlify.app/"
+              target="_blank"
+            >
+              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -151,9 +158,14 @@ const WorkSection = () => {
                 View on Github
               </button>
             </a>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-              View Site
-            </button>
+            <a
+              href="https://crypto-tracker-test-site.netlify.app"
+              target="_blank"
+            >
+              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -203,9 +215,11 @@ const WorkSection = () => {
                 View on Github
               </button>
             </a>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-              View Site
-            </button>
+            <a href="https://nft-project-test.vercel.app/" target="_blank">
+              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -246,52 +260,11 @@ const WorkSection = () => {
                 View on Github
               </button>
             </a>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-              View Site
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* 6th Project */}
-      <div className="mx-2 mt-10 md:ml-14">
-        <h2 className="text-threeColor font-bold text-3xl">
-          06. Twitter Clone
-        </h2>
-
-        {/* inner text */}
-        <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl">
-            A single Page Twitter Clone{" "}
-          </h3>
-
-          {/* Website Image */}
-
-          <div className="border-2 border-twoColor h-60 w-[19rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
-            <Image
-              src="/portfolio-work/twitterClone.png"
-              layout="fill"
-              objectFit="contain"
-            />
-          </div>
-
-          <h3 className="text-md text-threeColor font-semibold md:text-2xl">
-            Tech Stack : NextJS, Sanity CMS, Typescript, Tailwind, NextAuth
-          </h3>
-
-          {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 md:items-center lg:space-x-10">
-            <a
-              target="_blank"
-              href="https://github.com/JJ-LXIX/twitter-clone-project"
-            >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-                View on Github
+            <a href="" target="_blank">
+              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
               </button>
             </a>
-            <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-              View Site
-            </button>
           </div>
         </div>
       </div>
