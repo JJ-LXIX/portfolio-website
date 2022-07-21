@@ -260,7 +260,10 @@ const WorkSection = () => {
                 View on Github
               </button>
             </a>
-            <a href="" target="_blank">
+            <a
+              href="https://nft-collection-test-site.vercel.app/"
+              target="_blank"
+            >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
