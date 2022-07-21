@@ -39,7 +39,7 @@ const WorkSection = () => {
             </div>
           </div>
 
-          <h3 className="text-md text-threeColor font-semibold md:text-2xl">
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
             Tech Stack : ReactJS, MovieDB API
           </h3>
 
@@ -68,7 +68,7 @@ const WorkSection = () => {
 
         {/* inner text */}
         <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl">
+          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             A simple word game{" "}
           </h3>
           <h4 className="text-threeColor/30 font-semibold -mt-2 md:text-xl">
@@ -94,7 +94,7 @@ const WorkSection = () => {
             </div>
           </div>
 
-          <h3 className="text-md text-threeColor font-semibold md:text-2xl">
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
             Tech Stack : ReactJS
           </h3>
 
@@ -125,7 +125,7 @@ const WorkSection = () => {
 
         {/* inner text */}
         <div className="w-[90%] border-l-2 border-r-2 border-l-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl">
+          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             A Currency Tracking Website{" "}
           </h3>
           <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
@@ -147,7 +147,7 @@ const WorkSection = () => {
             </div>
           </div>
 
-          <h3 className="text-md text-threeColor font-semibold md:text-2xl">
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center ">
             Tech Stack : ReactJS, MaterialUI, ChartJS, Firebase
           </h3>
 
@@ -178,7 +178,7 @@ const WorkSection = () => {
 
         {/* inner text */}
         <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl">
+          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             An NFT project called NOTMYART{" "}
           </h3>
 
@@ -201,7 +201,7 @@ const WorkSection = () => {
             </div>
           </div>
 
-          <h3 className="text-md text-threeColor font-semibold md:text-2xl">
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
             Tech Stack : NextJS, Typescript, Sanity CMS, Tailwind, Thirdweb
           </h3>
 
@@ -232,7 +232,7 @@ const WorkSection = () => {
 
         {/* inner text */}
         <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl">
+          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             An NFT Collection Website{" "}
           </h3>
 
@@ -246,7 +246,7 @@ const WorkSection = () => {
             />
           </div>
 
-          <h3 className="text-md text-threeColor font-semibold md:text-2xl">
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
             Tech Stack : NextJS, Tailwind, Framer Motion
           </h3>
 
