@@ -71,7 +71,7 @@ const WorkSection = () => {
           <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             A simple word game{" "}
           </h3>
-          <h4 className="text-threeColor/30 font-semibold -mt-2 md:text-xl">
+          <h4 className="text-threeColor/80 font-semibold -mt-2 md:text-xl">
             *currently only works on desktop*
           </h4>
 
