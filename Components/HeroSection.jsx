@@ -90,7 +90,7 @@ const HeroSection = () => {
           variants={childrenSection}
         >
           I am enthusiastic about solving business problems through
-          human-centered design. Curious by nature.
+          human-centered design. Curious by nature and Business oriented.
         </motion.h2>
 
         {/* Github Button CTA */}
