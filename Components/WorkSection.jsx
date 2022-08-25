@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WorkSection = () => {
   return (
-    <div className="bg-oneColor w-full pb-2 pt-5 md:pt-10" id="portfolio__work">
+    <div className=" w-full pb-2 pt-5 md:pt-10 z-50" id="portfolio__work">
       <h2 className="text-center font-bold text-4xl text-threeColor wavy__line md:text-5xl ">
         My Work
       </h2>
@@ -47,13 +47,18 @@ const WorkSection = () => {
           <div className="flex mt-4 flex-col  space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/JJ-LXIX/react-movie-app"
             >
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
-            <a href="https://react-movie-app-pearl.vercel.app/" target="_blank">
+            <a
+              href="https://react-movie-app-pearl.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
@@ -100,7 +105,11 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
-            <a target="_blank" href="https://github.com/JJ-LXIX/wordle-clone">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/JJ-LXIX/wordle-clone"
+            >
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View On Github
               </button>
@@ -108,6 +117,7 @@ const WorkSection = () => {
             <a
               href="https://wordle-test-clone-site.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
@@ -153,7 +163,11 @@ const WorkSection = () => {
 
           {/* CTA Buttons*/}
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
-            <a target="_blank" href="https://github.com/JJ-LXIX/Crypto_tracker">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/JJ-LXIX/Crypto_tracker"
+            >
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
@@ -161,6 +175,7 @@ const WorkSection = () => {
             <a
               href="https://crypto-tracker-test-site.netlify.app"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
@@ -209,13 +224,18 @@ const WorkSection = () => {
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/JJ-LXIX/NFT_Project_Test"
             >
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
-            <a href="https://nft-project-test.vercel.app/" target="_blank">
+            <a
+              href="https://nft-project-test.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
@@ -254,6 +274,7 @@ const WorkSection = () => {
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/JJ-LXIX/front-end-practice-sites"
             >
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
@@ -263,6 +284,7 @@ const WorkSection = () => {
             <a
               href="https://nft-collection-test-site.vercel.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site

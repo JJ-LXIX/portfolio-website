@@ -5,7 +5,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div
-      className="w-full h-screen flex flex-col items-center  bg-oneColor pt-5 md:pt-10 lg:pb-[7rem] lg:px-[25rem]"
+      className="w-full h-screen flex flex-col items-center   pt-5 md:pt-10 lg:pb-[7rem] lg:px-[25rem]"
       id="about__me"
     >
       <h2 className="font-bold text-4xl md:text-5xl text-threeColor  wavy__line">
