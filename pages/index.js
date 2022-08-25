@@ -15,6 +15,10 @@ export default function Home() {
           name="description"
           content="Personal Portfolio - Jagrath Shetty"
         />
+        <meta
+          name="google-site-verification"
+          content="SsTdWBSa7sjyZ8HHrkZ0Tv9_3iM-wK93naxe5_0HXow"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -76,7 +76,7 @@ const WorkSection = () => {
           <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             A simple word game{" "}
           </h3>
-          <h4 className="text-threeColor/30 font-semibold -mt-2 md:text-xl">
+          <h4 className="text-threeColor/80 font-semibold -mt-2 md:text-xl">
             *currently only works on desktop*
           </h4>
 
@@ -274,7 +274,6 @@ const WorkSection = () => {
           <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
-              rel="noreferrer"
               href="https://github.com/JJ-LXIX/front-end-practice-sites"
             >
               <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
@@ -284,7 +283,6 @@ const WorkSection = () => {
             <a
               href="https://nft-collection-test-site.vercel.app/"
               target="_blank"
-              rel="noreferrer"
             >
               <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
