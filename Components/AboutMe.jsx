@@ -15,7 +15,7 @@ const AboutMe = () => {
       {/* Card */}
       <motion.div
         className="w-4/5 h-[25rem] border-2  border-threeColor bg-twoColor/60 mt-[2rem] rounded-2xl  shadow-[10px_10px_15px_-8px_rgba(245,235,255,0.5)] 
-      flex flex-col justify-evenly items-center p-3 md:min-h-[50rem] md:min-w-[50rem] md:border-4 md:px-8 md:mt-[5rem]"
+      flex flex-col justify-evenly items-center p-3 md:min-h-[50rem] md:min-w-[25rem] md:max-w-[40rem] md:border-4 md:px-8 md:mt-[5rem]"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
         viewport={{ once: true }}
