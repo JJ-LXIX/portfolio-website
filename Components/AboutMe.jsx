@@ -5,17 +5,17 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div
-      className="w-full h-screen flex flex-col items-center   pt-5 md:pt-10 lg:pb-[7rem] lg:px-[25rem]"
+      className="w-full flex flex-col items-center   pt-5 md:pt-10 lg:pb-[7rem] lg:px-[25rem] "
       id="about__me"
     >
-      <h2 className="font-bold text-4xl md:text-5xl text-threeColor  wavy__line">
+      <h2 className="font-bold text-4xl md:text-5xl md:min-w-[20rem] text-center text-threeColor  wavy__line">
         About Me
       </h2>
 
       {/* Card */}
       <motion.div
         className="w-4/5 h-[25rem] border-2  border-threeColor bg-twoColor/60 mt-[2rem] rounded-2xl  shadow-[10px_10px_15px_-8px_rgba(245,235,255,0.5)] 
-      flex flex-col justify-evenly items-center p-3 md:h-[50rem] md:border-4 md:px-8 md:mt-[5rem]"
+      flex flex-col justify-evenly items-center p-3 md:min-h-[50rem] md:min-w-[50rem] md:border-4 md:px-8 md:mt-[5rem]"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
         viewport={{ once: true }}
@@ -42,7 +42,7 @@ const AboutMe = () => {
       </motion.div>
 
       {/* Socials */}
-      <div className=" mt-6 flex  w-full items-center justify-around  md:mt-6 lg:mt-12">
+      <div className=" mt-6 flex   w-full items-center justify-around md:min-w-[50rem]  md:mt-6 lg:mt-12 ">
         {/* Insta */}
         <div className="flex flex-col items-center  w-1/2">
           <ChatAlt2Icon className="text-threeColor h-4 md:h-6" />
