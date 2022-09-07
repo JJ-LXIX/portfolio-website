@@ -24,6 +24,7 @@ const ToolsSkills = () => {
             width="100"
             height="100"
             layout="intrinsic"
+            alt="html logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">
             HTML
@@ -35,6 +36,7 @@ const ToolsSkills = () => {
             width="80"
             height="100"
             layout="intrinsic"
+            alt="css logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">CSS</h3>
         </div>
@@ -44,6 +46,7 @@ const ToolsSkills = () => {
             width="125"
             height="100"
             layout="intrinsic"
+            alt="reactjs logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl ">
             ReactJS
@@ -55,6 +58,7 @@ const ToolsSkills = () => {
             width="100"
             height="100"
             layout="intrinsic"
+            alt="nextjs logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">
             NextJS
@@ -66,6 +70,7 @@ const ToolsSkills = () => {
             width="100"
             height="100"
             layout="intrinsic"
+            alt="tailwind logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">
             Tailwind CSS
@@ -77,6 +82,7 @@ const ToolsSkills = () => {
             width="80"
             height="100"
             layout="intrinsic"
+            alt="figma logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">
             Figma
@@ -88,6 +94,7 @@ const ToolsSkills = () => {
             width="170"
             height="100"
             layout="intrinsic"
+            alt="photoshop logo"
           />
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">
             Photoshop

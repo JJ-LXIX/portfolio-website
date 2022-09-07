@@ -108,7 +108,12 @@ const HeroSection = () => {
 
       {/* Hero Image */}
       <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center md:-mt-8 lg:h-[60vh] lg:mt-0">
-        <Image src="/hero-image.svg" width="400" height="400" />
+        <Image
+          src="/hero-image.svg"
+          width="400"
+          height="400"
+          alt="image of a cartoon character saying hello"
+        />
       </div>
     </div>
   );

@@ -27,6 +27,7 @@ const WorkSection = () => {
                 src="/portfolio-work/JMovies.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of Movie app demo that I made"
               />
             </div>
 
@@ -35,6 +36,7 @@ const WorkSection = () => {
                 src="/portfolio-work/JMovies2.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of Movie app demo that I made"
               />
             </div>
           </div>
@@ -87,6 +89,7 @@ const WorkSection = () => {
                 src="/portfolio-work/wordleClone.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of Wordle app clone that I made"
               />
             </div>
 
@@ -95,6 +98,7 @@ const WorkSection = () => {
                 src="/portfolio-work/wordleClone2.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of Wordle app clone that I made"
               />
             </div>
           </div>
@@ -145,6 +149,7 @@ const WorkSection = () => {
                 src="/portfolio-work/cryptoTracker.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of Crypto Price Tracker that I made"
               />
             </div>
 
@@ -153,6 +158,7 @@ const WorkSection = () => {
                 src="/portfolio-work/cryptoTracker2.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of Crypto Price Tracker that I made"
               />
             </div>
           </div>
@@ -204,6 +210,7 @@ const WorkSection = () => {
                 src="/portfolio-work/nftProject.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of NFT Minting Project that I made"
               />
             </div>
 
@@ -212,6 +219,7 @@ const WorkSection = () => {
                 src="/portfolio-work/nftProject2.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Screenshot of NFT Minting Project that I made"
               />
             </div>
           </div>
@@ -263,6 +271,7 @@ const WorkSection = () => {
               src="/portfolio-work/NFTcollection.png"
               layout="fill"
               objectFit="contain"
+              alt="Screenshot of NFT Collection website that I made"
             />
           </div>
 
