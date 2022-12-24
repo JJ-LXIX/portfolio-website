@@ -88,7 +88,7 @@ const ToolsSkills = () => {
             Figma
           </h3>
         </div>
-        <div className=" bg-twoColor/60 border-t-2 border-threeColor col-span-2 h-44 flex flex-col justify-around items-center md:h-48">
+        {/* <div className=" bg-twoColor/60 border-t-2 border-threeColor col-span-2 h-44 flex flex-col justify-around items-center md:h-48">
           <Image
             src="/skills_tools/photoshop.png"
             width="170"
@@ -99,7 +99,7 @@ const ToolsSkills = () => {
           <h3 className="font-bold text-xl text-threeColor md:text-3xl">
             Photoshop
           </h3>
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );
