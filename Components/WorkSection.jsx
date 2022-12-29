@@ -300,6 +300,52 @@ const WorkSection = () => {
           </div>
         </div>
       </div>
+
+      {/* 6th Project */}
+      <div className="mx-2 mt-10 md:ml-14">
+        <h2 className="text-threeColor font-bold text-3xl">
+          06. Interactive Shoe Color Selector
+        </h2>
+
+        {/* inner text */}
+        <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
+          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
+            An Interactive Shoe Card where the User can Change the Colors
+          </h3>
+
+          {/* Website Image */}
+
+          <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+            <Image
+              src="/portfolio-work/shoe.png"
+              layout="fill"
+              objectFit="contain"
+              alt="Screenshot of a website of an interactive shoe"
+            />
+          </div>
+
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
+            Tech Stack : NextJS, Tailwind, Typescript , React Three Fiber.
+          </h3>
+
+          {/* CTA Buttons*/}
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
+            <a
+              target="_blank"
+              href="https://github.com/JJ-LXIX/react-three-fiber-shoe"
+            >
+              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View on Github
+              </button>
+            </a>
+            <a href="https://r3f-shoe-test.vercel.app/" target="_blank">
+              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
