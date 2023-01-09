@@ -113,6 +113,7 @@ const HeroSection = () => {
           width="400"
           height="400"
           alt="image of a cartoon character saying hello"
+          priority
         />
       </div>
     </div>
