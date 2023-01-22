@@ -8,7 +8,7 @@ const WorkSection = () => {
         My Work
       </h2>
       {/* 1st Project */}
-      <div className="mx-2 mt-10 md:ml-14">
+      <div className=" w-full mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl">
           01. Movie & TV Show App{" "}
         </h2>
@@ -70,8 +70,10 @@ const WorkSection = () => {
       </div>
 
       {/* 2nd Project */}
-      <div className="mx-2 mt-10 md:ml-14">
-        <h2 className="text-threeColor font-bold text-3xl">02. Wordle Clone</h2>
+      <div className="mx-2 mt-10 flex flex-col items-center">
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl">
+          02. Wordle Clone
+        </h2>
 
         {/* inner text */}
         <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
@@ -132,7 +134,7 @@ const WorkSection = () => {
       </div>
 
       {/* 3nd Project */}
-      <div className="mx-2 mt-10 md:ml-14">
+      <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl ">
           03. Crypto Tracker
         </h2>
@@ -192,7 +194,7 @@ const WorkSection = () => {
       </div>
 
       {/* 4th Project */}
-      <div className="mx-2 mt-10 md:ml-14">
+      <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl">
           04. NFT Project (NOTMYART)
         </h2>
@@ -253,7 +255,7 @@ const WorkSection = () => {
       </div>
 
       {/* 5th Project */}
-      <div className="mx-2 mt-10 md:ml-14">
+      <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl">
           05. NFT Collection
         </h2>
@@ -302,7 +304,7 @@ const WorkSection = () => {
       </div>
 
       {/* 6th Project */}
-      <div className="mx-2 mt-10 md:ml-14">
+      <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl">
           06. Interactive Shoe Color Selector
         </h2>
