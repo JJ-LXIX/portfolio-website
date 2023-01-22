@@ -10,7 +10,7 @@ const WorkSection = () => {
       {/* 1st Project */}
       <div className=" w-full mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-6xl md:text-8xl font-light">01.</span> Movie &
+          <span className="text-5xl md:text-7xl font-light">01.</span> Movie &
           TV Show App{" "}
         </h2>
 
@@ -73,7 +73,7 @@ const WorkSection = () => {
       {/* 2nd Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-6xl md:text-8xl font-light">02.</span> Wordle
+          <span className="text-5xl md:text-7xl font-light">02.</span> Wordle
           Clone
         </h2>
 
@@ -138,7 +138,7 @@ const WorkSection = () => {
       {/* 3nd Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
-          <span className="text-6xl md:text-8xl font-light">03.</span> Crypto
+          <span className="text-5xl md:text-7xl font-light">03.</span> Crypto
           Tracker
         </h2>
 
@@ -199,7 +199,7 @@ const WorkSection = () => {
       {/* 4th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
-          <span className="text-6xl md:text-8xl font-light">04.</span> NFT
+          <span className="text-5xl md:text-7xl font-light">04.</span> NFT
           Project (NOTMYART)
         </h2>
 
@@ -261,7 +261,7 @@ const WorkSection = () => {
       {/* 5th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
-          <span className="text-6xl md:text-8xl font-light">05.</span> NFT
+          <span className="text-5xl md:text-7xl font-light">05.</span> NFT
           Collection
         </h2>
 
@@ -311,7 +311,7 @@ const WorkSection = () => {
       {/* 6th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-6xl md:text-8xl font-light">06.</span>{" "}
+          <span className="text-5xl md:text-7xl font-light">06.</span>{" "}
           Interactive Shoe Color Selector
         </h2>
 
