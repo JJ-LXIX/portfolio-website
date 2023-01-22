@@ -9,8 +9,9 @@ const WorkSection = () => {
       </h2>
       {/* 1st Project */}
       <div className=" w-full mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl md:text-4xl">
-          01. Movie & TV Show App{" "}
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
+          <span className="text-6xl md:text-8xl font-light">01.</span> Movie &
+          TV Show App{" "}
         </h2>
 
         {/* inner text */}
@@ -52,7 +53,7 @@ const WorkSection = () => {
               rel="noreferrer"
               href="https://github.com/JJ-LXIX/react-movie-app"
             >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
@@ -61,7 +62,7 @@ const WorkSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
             </a>
@@ -71,8 +72,9 @@ const WorkSection = () => {
 
       {/* 2nd Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl md:text-4xl">
-          02. Wordle Clone
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
+          <span className="text-6xl md:text-8xl font-light">02.</span> Wordle
+          Clone
         </h2>
 
         {/* inner text */}
@@ -116,7 +118,7 @@ const WorkSection = () => {
               rel="noreferrer"
               href="https://github.com/JJ-LXIX/wordle-clone"
             >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View On Github
               </button>
             </a>
@@ -125,7 +127,7 @@ const WorkSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
             </a>
@@ -135,8 +137,9 @@ const WorkSection = () => {
 
       {/* 3nd Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl ">
-          03. Crypto Tracker
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
+          <span className="text-6xl md:text-8xl font-light">03.</span> Crypto
+          Tracker
         </h2>
 
         {/* inner text */}
@@ -176,7 +179,7 @@ const WorkSection = () => {
               rel="noreferrer"
               href="https://github.com/JJ-LXIX/Crypto_tracker"
             >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
@@ -185,7 +188,7 @@ const WorkSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
             </a>
@@ -195,8 +198,9 @@ const WorkSection = () => {
 
       {/* 4th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl">
-          04. NFT Project (NOTMYART)
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
+          <span className="text-6xl md:text-8xl font-light">04.</span> NFT
+          Project (NOTMYART)
         </h2>
 
         {/* inner text */}
@@ -237,7 +241,7 @@ const WorkSection = () => {
               rel="noreferrer"
               href="https://github.com/JJ-LXIX/NFT_Project_Test"
             >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
@@ -246,7 +250,7 @@ const WorkSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
             </a>
@@ -256,8 +260,9 @@ const WorkSection = () => {
 
       {/* 5th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl">
-          05. NFT Collection
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
+          <span className="text-6xl md:text-8xl font-light">05.</span> NFT
+          Collection
         </h2>
 
         {/* inner text */}
@@ -287,7 +292,7 @@ const WorkSection = () => {
               target="_blank"
               href="https://github.com/JJ-LXIX/front-end-practice-sites"
             >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
@@ -295,7 +300,7 @@ const WorkSection = () => {
               href="https://nft-collection-test-site.vercel.app/"
               target="_blank"
             >
-              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
             </a>
@@ -305,8 +310,9 @@ const WorkSection = () => {
 
       {/* 6th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl">
-          06. Interactive Shoe Color Selector
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
+          <span className="text-6xl md:text-8xl font-light">06.</span>{" "}
+          Interactive Shoe Color Selector
         </h2>
 
         {/* inner text */}
@@ -336,12 +342,12 @@ const WorkSection = () => {
               target="_blank"
               href="https://github.com/JJ-LXIX/react-three-fiber-shoe"
             >
-              <button className="bg-transparent  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View on Github
               </button>
             </a>
             <a href="https://r3f-shoe-test.vercel.app/" target="_blank">
-              <button className="bg-twoColor/50  border-2 border-threeColor py-2 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
                 View Site
               </button>
             </a>
