@@ -29,7 +29,8 @@ export default function Home() {
           autoPlay
           loop
           muted
-          className="hidden lg:block h-screen w-full fixed  object-cover opacity-25"
+          // add "hidden lg:block" back to classname to hide video on mobile
+          className=" h-screen w-full fixed  object-cover opacity-25"
         />
       </div>
 
