@@ -107,7 +107,7 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Hero Image */}
-      <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center md:-mt-8 lg:h-[60vh] lg:mt-0">
+      <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center  lg:h-[60vh] ">
         <Image
           src="/hero-image.svg"
           width="400"
