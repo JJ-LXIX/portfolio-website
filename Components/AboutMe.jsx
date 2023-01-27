@@ -64,6 +64,9 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
+      <h3 className="text-base font-semibold text-threeColor/90 md:text-lg lg:text-xl pt-1 md:pt-3 lg:pt-10 md:pb-[3rem] whitespace-nowrap">
+        Hero Section Art by - @silvercrow101
+      </h3>
     </div>
   );
 };
