@@ -1,6 +1,10 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, PresentationControls } from "@react-three/drei";
+import { SpaceModel } from "./SpaceModel";
 
 const HeroSection = () => {
   const animationContainer1 = {
@@ -107,14 +111,40 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Hero Image */}
-      <div className=" h-[40vh] w-full  bg-twoColor flex justify-center items-center  lg:h-[60vh] ">
-        <Image
+      <div className=" h-[40vh] w-full border-2 border-threeColor flex justify-center items-center  lg:h-[60vh] ">
+        <Canvas style={{ width: "100%", height: "100%" }}>
+          <Suspense fallback={null}>
+            <ambientLight />
+            <spotLight
+              intensity={0.9}
+              angle={0.1}
+              penumbra={1}
+              position={[10, 15, 10]}
+              castShadow
+            />
+            <PresentationControls
+              global
+              config={{ mass: 3, tension: 500 }}
+              snap={{ mass: 3, tension: 400 }}
+              rotation={[1.5, 3, 3]}
+              polar={[0, Math.PI / 3]}
+              azimuth={[-Math.PI / 10, Math.PI / 2]}
+            >
+              <SpaceModel
+                rotation={[-Math.PI / 2, 0, 0]}
+                position={[-0.2, 0.25, -2.2]}
+              />
+            </PresentationControls>
+          </Suspense>
+        </Canvas>
+
+        {/* <Image
           src="/hero-image.svg"
           width="400"
           height="400"
           alt="image of a cartoon character saying hello"
           priority
-        />
+        /> */}
       </div>
     </div>
   );
