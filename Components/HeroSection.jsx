@@ -111,7 +111,12 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Hero Image */}
-      <div className=" h-[40vh] w-full border-2 border-threeColor flex justify-center items-center  lg:h-[60vh] ">
+      <motion.div
+        className=" h-[40vh] w-full border-2 border-threeColor flex justify-center items-center  lg:h-[60vh] "
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+      >
         <Canvas style={{ width: "100%", height: "100%" }}>
           <Suspense fallback={null}>
             <ambientLight />
@@ -145,7 +150,7 @@ const HeroSection = () => {
           alt="image of a cartoon character saying hello"
           priority
         /> */}
-      </div>
+      </motion.div>
     </div>
   );
 };
