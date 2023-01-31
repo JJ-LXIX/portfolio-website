@@ -78,19 +78,19 @@ const HeroSection = () => {
           className="-space-y-1 md:space-y-0 lg:-space-y-1"
           variants={childrenSection}
         >
-          <h2 className="text-twoColor font-bold text-3xl md:text-6xl">
+          <h2 className="text-twoColor font-bold text-3xl md:text-4xl  xl:text-5xl 2xl:text-6xl">
             Hi there! I'm
           </h2>
-          <h1 className="text-threeColor font-bold text-4xl md:text-7xl ">
+          <h1 className="text-threeColor font-bold text-4xl md:text-5xl  xl:text-6xl 2xl:text-7xl">
             Jagrath Shetty,
           </h1>
-          <h2 className="text-twoColor font-bold text-3xl md:text-6xl">
+          <h2 className="text-twoColor font-bold text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl">
             Frontend Developer.
           </h2>
         </motion.div>
 
         <motion.h2
-          className="text-threeColor/90 text-lg font-semibold md:text-3xl "
+          className="text-threeColor/90 text-lg font-semibold md:text-3xl pr-1"
           variants={childrenSection}
         >
           I am enthusiastic about solving business problems through
