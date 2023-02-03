@@ -21,7 +21,7 @@ const AboutMe = () => {
         viewport={{ once: true }}
       >
         <p className="text-threeColor font-semibold text-lg text-center rounded-lg  md:text-2xl">
-          I dropped out of law school in my 4th year to pursue my interest in
+          I dropped out of law school to pursue my interest in
           coding
         </p>
         <div className="w-full bg-threeColor/40 h-1"></div>
