@@ -13,8 +13,10 @@ export default function Home() {
         <title>Jagrath Shetty - Portfolio</title>
         <meta
           name="description"
-          content="Personal Portfolio - Jagrath Shetty"
+          content="Jagrath Shetty - Frontend Web Developer"
         />
+        <meta property="og:image" content="/hero-section.jpg" />
+        <meta name="twitter:image" content="/hero-section.jpg" />
         <meta
           name="google-site-verification"
           content="SsTdWBSa7sjyZ8HHrkZ0Tv9_3iM-wK93naxe5_0HXow"
