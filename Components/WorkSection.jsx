@@ -1,5 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import JMovies1 from "../public/portfolio-work/JMovies.png";
+import JMovies2 from "../public/portfolio-work/JMovies2.png";
+import WorldClone from "../public/portfolio-work/wordleClone.png";
+import WorldClone2 from "../public/portfolio-work/wordleClone2.png";
+import CryptoTracker from "../public/portfolio-work/cryptoTracker.png";
+import CryptoTracker2 from "../public/portfolio-work/cryptoTracker2.png";
+import NFTProject from "../public/portfolio-work/nftProject.png";
+import NFTProject2 from "../public/portfolio-work/nftProject2.png";
+import NFTCollection from "../public/portfolio-work/NFTcollection.png";
+import ShoeImage from "../public/portfolio-work/shoe.png";
 
 const WorkSection = () => {
   return (
@@ -25,18 +35,20 @@ const WorkSection = () => {
           <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full ">
             <div className="border-2 border-twoColor h-48 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/JMovies.png"
+                src={JMovies1}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of Movie app demo that I made"
               />
             </div>
 
             <div className=" border-2 border-twoColor h-48 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/JMovies2.png"
+                src={JMovies2}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of Movie app demo that I made"
               />
             </div>
@@ -90,18 +102,20 @@ const WorkSection = () => {
           <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
             <div className="border-2 border-twoColor h-64 w-64 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/wordleClone.png"
+                src={WorldClone}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of Wordle app clone that I made"
               />
             </div>
 
             <div className=" border-2 border-twoColor h-64 w-64 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/wordleClone2.png"
+                src={WorldClone2}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of Wordle app clone that I made"
               />
             </div>
@@ -151,18 +165,20 @@ const WorkSection = () => {
             {/* Website Image */}
             <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/cryptoTracker.png"
+                src={CryptoTracker}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of Crypto Price Tracker that I made"
               />
             </div>
 
             <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/cryptoTracker2.png"
+                src={CryptoTracker2}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of Crypto Price Tracker that I made"
               />
             </div>
@@ -213,18 +229,20 @@ const WorkSection = () => {
           <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
             <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/nftProject.png"
+                src={NFTProject}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of NFT Minting Project that I made"
               />
             </div>
 
             <div className=" border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
               <Image
-                src="/portfolio-work/nftProject2.png"
+                src={NFTProject2}
                 layout="fill"
                 objectFit="contain"
+                placeholder="blur"
                 alt="Screenshot of NFT Minting Project that I made"
               />
             </div>
@@ -275,9 +293,10 @@ const WorkSection = () => {
 
           <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
             <Image
-              src="/portfolio-work/NFTcollection.png"
+              src={NFTCollection}
               layout="fill"
               objectFit="contain"
+              placeholder="blur"
               alt="Screenshot of NFT Collection website that I made"
             />
           </div>
@@ -325,9 +344,10 @@ const WorkSection = () => {
 
           <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
             <Image
-              src="/portfolio-work/shoe.png"
+              src={ShoeImage}
               layout="fill"
               objectFit="contain"
+              placeholder="blur"
               alt="Screenshot of a website of an interactive shoe"
             />
           </div>
