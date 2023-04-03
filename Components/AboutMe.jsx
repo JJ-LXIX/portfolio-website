@@ -21,8 +21,7 @@ const AboutMe = () => {
         viewport={{ once: true }}
       >
         <p className="text-threeColor font-semibold text-lg text-center rounded-lg  md:text-2xl">
-          I dropped out of law school to pursue my interest in
-          coding
+          I dropped out of law school to pursue my interest in coding
         </p>
         <div className="w-full bg-threeColor/40 h-1"></div>
         <h2 className="text-threeColor  font-semibold text-lg text-center rounded-lg  md:text-2xl">
@@ -36,7 +35,7 @@ const AboutMe = () => {
         <h2 className="text-threeColor font-semibold text-lg text-center rounded-lg md:text-2xl">
           Things I want to LEARN :
           <p className="text-threeColor/80">
-            Blockchain Development , 3d Art, Music Development, XR Development.
+            Blockchain Development , 3d Art, Music Production, XR Development.
           </p>
         </h2>
       </motion.div>
