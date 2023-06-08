@@ -344,21 +344,21 @@ const WorkSection = () => {
       </div>
 
       {/* 6th Project */}
-      <div className="mx-2 mt-10 flex flex-col items-center">
+      {/* <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
           <span className="text-5xl md:text-7xl font-light">06.</span> NFT
           Collection
-        </h2>
+        </h2> */}
 
-        {/* inner text */}
-        <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
+      {/* inner text */}
+      {/* <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
           <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
             An NFT Collection Website (PC ONLY NOT ON MOBILE)
-          </h3>
+          </h3> */}
 
-          {/* Website Image */}
+      {/* Website Image */}
 
-          <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+      {/* <div className="border-2  border-twoColor h-44 w-[19.5rem] my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
             <Image
               src={NFTCollection}
               layout="fill"
@@ -370,10 +370,10 @@ const WorkSection = () => {
 
           <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
             Tech Stack : NextJS, Tailwind, Framer Motion
-          </h3>
+          </h3> */}
 
-          {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
+      {/* CTA Buttons*/}
+      {/* <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
             <a
               target="_blank"
               href="https://github.com/JJ-LXIX/front-end-practice-sites"
@@ -392,12 +392,12 @@ const WorkSection = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* 7th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-5xl md:text-7xl font-light">07.</span>{" "}
+          <span className="text-5xl md:text-7xl font-light">06.</span>{" "}
           Interactive Shoe Color Selector
         </h2>
 
