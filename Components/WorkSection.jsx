@@ -72,7 +72,7 @@ const WorkSection = () => {
               </button>
             </a>
             <a
-              href="https://react-movie-app-pearl.vercel.app/"
+              href="https://jmovies-app.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
