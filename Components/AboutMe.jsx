@@ -35,7 +35,7 @@ const AboutMe = () => {
         <h2 className="text-threeColor font-semibold text-lg text-center rounded-lg md:text-2xl">
           Things I want to LEARN :
           <p className="text-threeColor/80">
-            Blockchain Development , 3d Art, Music Production, XR Development.
+            XR Development, 3d Art, Music Production.
           </p>
         </h2>
       </motion.div>
