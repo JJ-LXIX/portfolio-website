@@ -16,10 +16,10 @@ export function SpaceModel(props) {
   const ref = useRef();
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
-    ref.current.rotation.x = Math.PI / 1.75 + Math.cos(t / 4) / 8;
-    ref.current.rotation.y = Math.sin(t / 4) / 8;
+    ref.current.rotation.x = Math.PI / 5 + Math.cos(t / 4) / 8;
+    ref.current.rotation.y = Math.sin(t / 4) / 7;
     ref.current.rotation.z = (1 + Math.sin(t / 1.5)) / 15;
-    ref.current.position.y = (1 + Math.sin(t / 1.5)) / 10;
+    ref.current.position.y = (1 + Math.sin(t / 1.5)) / 15;
   });
   return (
     <group ref={ref} {...props} dispose={null}>
