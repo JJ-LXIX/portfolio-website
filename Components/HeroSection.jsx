@@ -117,8 +117,8 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
       >
-        <Canvas style={{ width: "100%", height: "100%" }}>
-          <Suspense fallback={null}>
+        <Suspense fallback={<h2>Loading...</h2>}>
+          <Canvas style={{ width: "100%", height: "100%" }}>
             <ambientLight />
             <spotLight
               intensity={0.9}
@@ -140,8 +140,8 @@ const HeroSection = () => {
                 position={[-0.2, 0.25, -2.2]}
               />
             </PresentationControls>
-          </Suspense>
-        </Canvas>
+          </Canvas>
+        </Suspense>
 
         {/* <Image
           src="/hero-image.svg"
