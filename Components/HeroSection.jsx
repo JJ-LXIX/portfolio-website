@@ -126,13 +126,12 @@ const HeroSection = () => {
               global
               config={{ mass: 3, tension: 500 }}
               snap={{ mass: 3, tension: 400 }}
-              rotation={[1.5, 3, 3]}
               polar={[0, Math.PI / 3]}
               azimuth={[-Math.PI / 10, Math.PI / 2]}
             >
               <SpaceModel
-                rotation={[-Math.PI / 2, 0, 0]}
-                position={[-0.2, 0.25, -2.2]}
+                rotation={[Math.PI / 2, 0, 0]}
+                position={[-0.2, 0.4, -3]}
               />
             </PresentationControls>
           </Canvas>
