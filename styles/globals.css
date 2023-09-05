@@ -7,13 +7,16 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  
 }
 
-@media screen and (min-width : 1024px) {
-  *{
-  cursor: none;
- }
+@media screen and (min-width: 1024px) {
+  * {
+    cursor: none;
+  }
+}
+
+canvas {
+  touch-action: none;
 }
 
 .wavy__line {
@@ -24,17 +27,17 @@
   text-decoration-style: wavy;
 }
 
-.animation-delay-2000{
-  animation-delay:2s;
+.animation-delay-2000 {
+  animation-delay: 2s;
 }
-.animation-delay-4000{
-  animation-delay:4s;
+.animation-delay-4000 {
+  animation-delay: 4s;
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 7.5px;
-  background-color:black;
+  background-color: black;
 }
 
 ::-webkit-scrollbar-track {
@@ -48,14 +51,14 @@
 }
 
 /* Custom Cursor */
-.custom__cursor{
+.custom__cursor {
   z-index: 1000;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   border: 2px solid #fff;
   pointer-events: none;
-  overflow:hidden;
-  transform: translate3d(0,0,0);
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
   position: fixed;
 }
