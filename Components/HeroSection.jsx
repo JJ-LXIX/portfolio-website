@@ -136,7 +136,7 @@ const HeroSection = () => {
               azimuth={[-Math.PI / 10, Math.PI / 2]}
             >
               <SpaceModel
-                rotation={[-Math.PI / 0.7, -0.15, 0]}
+                rotation={[-Math.PI / 2, 0, 0]}
                 position={[-0.2, 0.25, -2.2]}
               />
             </PresentationControls>
