@@ -2,9 +2,9 @@ import React, { Suspense } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, PresentationControls } from "@react-three/drei";
-import { SpaceModel } from "./SpaceModel";
+// import { Canvas } from "@react-three/fiber";
+// import { OrbitControls, PresentationControls } from "@react-three/drei";
+// import { SpaceModel } from "./SpaceModel";
 
 const HeroSection = () => {
   const animationContainer1 = {
@@ -117,7 +117,7 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
       >
-        <Suspense fallback={<h2>Loading...</h2>}>
+        {/* <Suspense fallback={<h2>Loading...</h2>}>
           <Canvas style={{ width: "100%", height: "100%" }}>
             <ambientLight />
             <spotLight
@@ -141,15 +141,15 @@ const HeroSection = () => {
               />
             </PresentationControls>
           </Canvas>
-        </Suspense>
+        </Suspense> */}
 
-        {/* <Image
+        <Image
           src="/hero-image.svg"
           width="400"
           height="400"
           alt="image of a cartoon character saying hello"
           priority
-        /> */}
+        />
       </motion.div>
     </div>
   );
