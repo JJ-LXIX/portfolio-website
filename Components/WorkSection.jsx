@@ -6,14 +6,11 @@ import WorldClone from "../public/portfolio-work/wordleClone.jpg";
 import WorldClone2 from "../public/portfolio-work/wordleClone2.jpg";
 import CryptoTracker from "../public/portfolio-work/cryptoTracker.jpg";
 import CryptoTracker2 from "../public/portfolio-work/cryptoTracker2.jpg";
-import NFTProject from "../public/portfolio-work/nftProject.jpg";
-import NFTProject2 from "../public/portfolio-work/nftProject2.jpg";
-
 import ShoeImage from "../public/portfolio-work/shoe.jpg";
 import Jwitter from "../public/portfolio-work/jwitter.jpg";
 import Jwitter2 from "../public/portfolio-work/jwitter2.jpg";
-import DentalWebsite1 from "../public/portfolio-work/dental1.jpg";
-import DentalWebsite2 from "../public/portfolio-work/dental2.jpg";
+import DentalWebsite1 from "../public/portfolio-work/dentalSite1.png";
+import DentalWebsite2 from "../public/portfolio-work/dentalSite2.png";
 import poke1 from "../public/portfolio-work/poke1.jpg";
 import poke2 from "../public/portfolio-work/poke2.jpg";
 
@@ -88,10 +85,75 @@ const WorkSection = () => {
           </div>
         </div>
       </div>
+
       {/* 2nd Project */}
+
+      <div className="mx-2 mt-10 flex flex-col items-center">
+        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
+          <span className="text-5xl md:text-7xl font-light">02.</span> Dentist
+          Website
+        </h2>
+
+        {/* inner text */}
+        <div className="w-[90%] border-l-2 border-r-2 border-l-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
+          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
+            A simple website for a Dentist{" "}
+          </h3>
+          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
+            {/* Website Image */}
+            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src={DentalWebsite1}
+                layout="fill"
+                objectFit="contain"
+                placeholder="blur"
+                alt="Screenshot of a Dental Website that I made"
+              />
+            </div>
+
+            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
+              <Image
+                src={DentalWebsite2}
+                layout="fill"
+                objectFit="contain"
+                placeholder="blur"
+                alt="Screenshot of a Dental Website that I made"
+              />
+            </div>
+          </div>
+
+          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center ">
+            Tech Stack : NextJS, Framer Motion, Tailwind, ShadcnUI
+          </h3>
+
+          {/* CTA Buttons*/}
+          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/JJ-LXIX/dental-client-site"
+            >
+              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View on Github
+              </button>
+            </a>
+            <a
+              href="https://dental-site-test.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
+                View Site
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* 3rd Project */}
       <div className=" w-full mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-5xl md:text-7xl font-light">02.</span>{" "}
+          <span className="text-5xl md:text-7xl font-light">03.</span>{" "}
           Interactive Pokemon Website
         </h2>
 
@@ -152,10 +214,12 @@ const WorkSection = () => {
           </div>
         </div>
       </div>
-      {/* 3rd Project */}
+
+      {/* 4th Project */}
+
       <div className=" w-full mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-5xl md:text-7xl font-light">03.</span> Movie &
+          <span className="text-5xl md:text-7xl font-light">04.</span> Movie &
           TV Show App{" "}
         </h2>
 
@@ -216,69 +280,6 @@ const WorkSection = () => {
           </div>
         </div>
       </div>
-      {/* 4th Project */}
-      <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
-          <span className="text-5xl md:text-7xl font-light">04.</span> Dentist
-          Website
-        </h2>
-
-        {/* inner text */}
-        <div className="w-[90%] border-l-2 border-r-2 border-l-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
-            A simple website for a Dentist{" "}
-          </h3>
-          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
-            {/* Website Image */}
-            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
-              <Image
-                src={DentalWebsite1}
-                layout="fill"
-                objectFit="contain"
-                placeholder="blur"
-                alt="Screenshot of a Dental Website that I made"
-              />
-            </div>
-
-            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
-              <Image
-                src={DentalWebsite2}
-                layout="fill"
-                objectFit="contain"
-                placeholder="blur"
-                alt="Screenshot of a Dental Website that I made"
-              />
-            </div>
-          </div>
-
-          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center ">
-            Tech Stack : NextJS, Framer Motion, Tailwind, ShadcnUI
-          </h3>
-
-          {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/JJ-LXIX/dental-client-site"
-            >
-              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-                View on Github
-              </button>
-            </a>
-            <a
-              href="https://dental-client-site.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-                View Site
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* 5th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
@@ -410,73 +411,10 @@ const WorkSection = () => {
       </div>
 
       {/* 7th Project */}
-      <div className="mx-2 mt-10 flex flex-col items-center">
-        <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10 ">
-          <span className="text-5xl md:text-7xl font-light">07.</span> NFT
-          Project (NOTMYART)
-        </h2>
 
-        {/* inner text */}
-        <div className="w-[90%] border-l-2 border-r-2 border-threeColor flex flex-col items-center my-6 mb-10 mx-4 ">
-          <h3 className="text-threeColor font-semibold text-lg mt-8 md:text-2xl text-center">
-            An NFT project called NOTMYART{" "}
-          </h3>
-
-          {/* Website Image */}
-          <div className="flex flex-col lg:flex-row lg:justify-around lg:w-full">
-            <div className="border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
-              <Image
-                src={NFTProject}
-                layout="fill"
-                objectFit="contain"
-                placeholder="blur"
-                alt="Screenshot of NFT Minting Project that I made"
-              />
-            </div>
-
-            <div className=" border-2 border-twoColor h-44 w-72 my-6 relative md:h-80 md:w-[35rem] lg:h-[30rem] lg:w-[50rem]">
-              <Image
-                src={NFTProject2}
-                layout="fill"
-                objectFit="contain"
-                placeholder="blur"
-                alt="Screenshot of NFT Minting Project that I made"
-              />
-            </div>
-          </div>
-
-          <h3 className="text-sm text-threeColor font-semibold md:text-2xl text-center">
-            Tech Stack : NextJS, Typescript, Sanity CMS, Tailwind, Thirdweb
-          </h3>
-
-          {/* CTA Buttons*/}
-          <div className="flex mt-4 flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 items-center lg:space-x-10">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/JJ-LXIX/NFT_Project_Test"
-            >
-              <button className="bg-transparent  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64  text-threeColor text-2xl font-semibold  hover:cursor-none lg:hover:scale-110 active:scale-95 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-                View on Github
-              </button>
-            </a>
-            <a
-              href="https://nft-project-test.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="bg-twoColor/50  border-2 border-threeColor  w-60  py-3 px-6 lg:py-4 lg:w-64 md:px-14 text-threeColor text-2xl font-semibold hover:cursor-none lg:hover:scale-110  active:scale-90 lg:active:scale-90 transition-all duration-100 lg:duration-200">
-                View Site
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* 8th Project */}
       <div className="mx-2 mt-10 flex flex-col items-center">
         <h2 className="text-threeColor font-bold text-3xl md:text-4xl self-start pl-10">
-          <span className="text-5xl md:text-7xl font-light">08.</span>{" "}
+          <span className="text-5xl md:text-7xl font-light">07.</span>{" "}
           Interactive Shoe Color Selector
         </h2>
 
