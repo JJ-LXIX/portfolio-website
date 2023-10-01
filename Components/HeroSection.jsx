@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -7,6 +7,12 @@ import { PresentationControls } from "@react-three/drei";
 import { SpaceModel } from "./SpaceModel";
 
 const HeroSection = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    window.innerWidth < 1024 ? setIsSmallScreen(true) : setIsSmallScreen(false);
+  });
+
   const animationContainer1 = {
     show: {
       scale: [1, 1.1, 0.9, 1],
@@ -111,8 +117,16 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Hero Image */}
-      <div className=" h-[40vh] w-full border-2 border-threeColor flex justify-center items-center  lg:h-[60vh] ">
-        <Suspense fallback={<h2>Loading...</h2>}>
+      <div className=" h-[40vh] relative w-full border-2 bg-purple-600 lg:bg-transparent border-threeColor flex justify-center items-center  lg:h-[60vh] ">
+        {isSmallScreen ? (
+          <Image
+            src="/hero-image.svg"
+            layout="fill"
+            objectFit="contain"
+            alt="image of a cartoon character saying hello"
+            priority
+          />
+        ) : (
           <Canvas style={{ width: "100%", height: "100%" }}>
             <ambientLight />
             <spotLight
@@ -135,15 +149,7 @@ const HeroSection = () => {
               />
             </PresentationControls>
           </Canvas>
-        </Suspense>
-
-        {/* <Image
-          src="/hero-image.svg"
-          width="400"
-          height="400"
-          alt="image of a cartoon character saying hello"
-          priority
-        /> */}
+        )}
       </div>
     </div>
   );
