@@ -12,6 +12,9 @@ module.exports = {
         threeColor: "#fdf5f4",
         fourColor: "#752b2b",
       },
+      screens: {
+        "3xl": "1600px",
+      },
     },
   },
   plugins: [],
