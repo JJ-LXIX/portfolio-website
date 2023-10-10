@@ -81,26 +81,26 @@ const HeroSection = () => {
         animate="show"
       >
         <motion.div
-          className="-space-y-1 md:space-y-0 lg:-space-y-1"
+          className="-space-y-1 md:space-y-0"
           variants={childrenSection}
         >
-          <h2 className="text-twoColor font-bold text-3xl md:text-4xl  xl:text-5xl 2xl:text-6xl">
+          <h2 className="text-twoColor font-bold text-3xl md:text-4xl xl:text-5xl 3xl:text-6xl">
             Hi there! I'm
           </h2>
-          <h1 className="text-threeColor font-bold text-4xl md:text-5xl  xl:text-6xl 2xl:text-7xl">
+          <h1 className="text-threeColor font-bold text-4xl md:text-5xl  lg:text-6xl 3xl:text-7xl">
             Jagrath Shetty,
           </h1>
-          <h2 className="text-twoColor font-bold text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl">
+          <h2 className="text-twoColor font-bold text-3xl md:text-4xl lg:text-5xl 3xl:text-6xl">
             Frontend Developer.
           </h2>
         </motion.div>
 
         <motion.h2
-          className="text-threeColor/90 text-lg font-semibold md:text-3xl pr-1"
+          className="text-threeColor/90 text-lg font-semibold md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-5xl pr-1 2xl:max-w-[45rem]"
           variants={childrenSection}
         >
           I am enthusiastic about solving business problems through
-          human-centered design. Curious by nature and Business oriented.
+          human-centered design.
         </motion.h2>
 
         {/* Github Button CTA */}
@@ -117,7 +117,7 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Hero Image */}
-      <div className=" h-[40vh] relative w-full border-2 bg-purple-600 lg:bg-transparent border-threeColor flex justify-center items-center  lg:h-[60vh] ">
+      <div className=" h-[40vh] relative w-full lg:w-2/3 xl:w-full border-2 bg-purple-600 lg:bg-transparent border-threeColor flex justify-center items-center  lg:h-[60vh] ">
         {isSmallScreen ? (
           <Image
             src="/hero-image.svg"
